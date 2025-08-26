@@ -1,0 +1,54 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 90%;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultadoTabuada {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+#resultadoTabuada p {
+    margin: 5px 0;
+}

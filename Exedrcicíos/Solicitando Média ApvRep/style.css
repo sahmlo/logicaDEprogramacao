@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #D52D00 0%,
+        #EF7627 16%,
+        #FF9A56 32%,
+        #FFFFFF 48%,
+        #D162A4 64%,
+        #B55690 80%,
+        #A30262 100%
+    );
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 36px 24px;
+    max-width: 360px;
+    width: 100%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    color: #A30262;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.form label {
+    display: block;
+    text-align: left;
+    margin-top: 18px;
+    font-weight: bold;
+    color: #D52D00;
+    font-size: 13px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    border: 1.5px solid #D162A4;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #333;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #B55690;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+input[type="number"]::placeholder {
+    color: #777;
+}
+
+button {
+    background-color: #B55690;
+    color: white;
+    padding: 8px 14px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: auto;
+    align-self: flex-end;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #A30262;
+    transform: scale(1.05);
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #D52D00;
+}

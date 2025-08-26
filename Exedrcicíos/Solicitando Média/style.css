@@ -1,0 +1,93 @@
+/* Resetando algumas configurações padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cor de fundo e configuração de fontes */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #D5006D, #FF4081, #FF7043); /* Gradiente da bandeira lésbica (rosa, vermelho, laranja) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 24px;
+    color: #e91e63; /* Rosa */
+    margin-bottom: 20px;
+}
+
+/* Estilizando o formulário */
+.form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Estilizando os campos de input */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #e91e63; /* Rosa */
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+/* Efeito de foco nos campos */
+input[type="number"]:focus {
+    border-color: #d81b60; /* Rosa mais escuro */
+    outline: none;
+}
+
+/* Estilizando os botões */
+button {
+    background-color: #e91e63; /* Rosa */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #c2185b; /* Rosa mais escuro */
+}
+
+/* Resultado */
+.resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Escondendo os campos */
+#campo2, #campo3, #campo4 {
+    display: none;
+}
