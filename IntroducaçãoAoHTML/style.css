@@ -1,0 +1,27 @@
+      /* Resert Básico */
+      *{
+        margin: 0; /*   */
+        padding: 0; 
+        box-sizing: border-box; 
+        }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        padding: 40px;
+        line-height: 1.6;
+        }
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: #333;
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center
+        }
+    p {
+        font-size: 16px;
+        max-width:800px;
+        margin-bottom: 0 auto 20px auto;
+        text-align: justify;
+        }
