@@ -1,6 +1,6 @@
 # 🧠 Lógica de Programação
 
-Este repositório contém os exercícios, algoritmos e projetos desenvolvidos durante o módulo de **Lógica de Programação** do meu curso de Ciência de Dados (Data Science).
+Este repositório contém os exercícios, algoritmos e projetos desenvolvidos durante o módulo de **Lógica de Programação** do meu curso de Desenvolvimento de Sistemas.
 
 Aqui estão registados os meus primeiros passos no desenvolvimento do pensamento computacional, focando na resolução de problemas através de código.
 
@@ -16,9 +16,9 @@ Neste módulo, o foco foi estruturar o raciocínio lógico para "falar a língua
 * **Vetores e Matrizes (Arrays):** Armazenamento e manipulação de conjuntos de dados.
 * **Funções:** Modularização e reutilização de blocos de código.
 
-## 🚀 Por que isto é importante para Data Science?
+## 🚀 Por que isto é importante para Desenvolvimento?
 
-A lógica de programação é a fundação para qualquer cientista de dados. Antes de criar modelos complexos de Machine Learning ou Dashboards, é necessário saber:
+A lógica de programação é a fundação para qualquer desenvolvedor iniciante. Antes de criar modelos complexos de Machine Learning ou Dashboards, é necessário saber:
 1.  Limpar e manipular dados (usando laços e condicionais).
 2.  Criar scripts eficientes para automação.
 3.  Entender como o computador processa a informação.
